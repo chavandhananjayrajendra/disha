@@ -1,3 +1,34 @@
 <resources>
-    <string name="app_name">disa</string>
+    <string name="app_name">Recipe Book</string>
+
+    // Financial assistance for disabled person
+
+    <string name="financecategory">Financial Assistance for disabled person
+Visually impaired, hearing impaired, orthopedically handicapped</string>
+    <string name="financeDesc">Special education is provided to disabled children between age group of 6 to 18 years.</string>
+    <string name="financeeligibility">1. Applicant should have minimum 40% disability
+2. Applicant should be domicile in Maharashtra
+
+</string>
+    <string name="financebenefits">1. Free education
+2. Free facilities of food, shelter, clothing
+
+
+</string>
+
+    //Financial assistance to self-employed for train disabled person
+    <string name="finance2category">Financial assistance to self-employed for train disabled person
+Visually impaired, hearing impaired, orthopedically handicapped</string>
+    <string name="finance2Desc">SFacilitate purchase of equipment for those disabled person who are completely trend from government institutes to start their own business</string>
+    <string name="finance2eligibility">1. Applicant must complete their vocational training in government institution
+2. Applicant should have minimum 40% disability
+3. Applicant should be domicile in Maharashtra
+
+</string>
+    <string name="finance2benefits">Provides financial assistance of ₹1000 for purchase of total equipment’s to start their own business
+
+
+</string>
+
+
 </resources>

@@ -6,12 +6,21 @@ android {
     namespace 'com.example.disa'
     compileSdk 33
 
+        buildFeatures {
+            dataBinding true
+        }
+        // Other configuration options...
+  
+
     defaultConfig {
         applicationId "com.example.disa"
         minSdk 21
         targetSdk 33
         versionCode 1
         versionName "1.0"
+        viewBinding{
+            enabled=true
+        }
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -36,4 +45,7 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation "com.android.tools.build:gradle:7.4.2"
+    implementation 'com.google.gms:google-services:4.3.15'
+
 }
